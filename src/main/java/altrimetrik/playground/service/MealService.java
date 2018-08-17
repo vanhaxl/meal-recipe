@@ -15,8 +15,4 @@ public class MealService {
         return mealRepository.findByName(name);
     }
 
-    public Meal findById(Long id) {
-        return mealRepository.findOne(id);
-    }
-
 }
