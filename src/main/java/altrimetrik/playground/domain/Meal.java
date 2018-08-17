@@ -61,14 +61,15 @@ public class Meal {
     }
 
     public void calcOverallNutritionalValue() {
+//        float result = 0;
+//
+//        for (Ingredient ingredient : ingredients) {
+//            result += ingredient.getValue();
+//        }
+//
+//        overallNutrionalValue = result;
 
-        float result = 0;
-
-        for (Ingredient ingredient : ingredients) {
-            result += ingredient.getValue();
-        }
-
-        overallNutrionalValue = result;
+        overallNutrionalValue = (float) ingredients.stream().mapToDouble(i -> i.getValue()).sum();
     }
 
 }
