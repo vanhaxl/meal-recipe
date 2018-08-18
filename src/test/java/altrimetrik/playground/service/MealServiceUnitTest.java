@@ -43,7 +43,6 @@ public class MealServiceUnitTest {
         Meal newMeal = mealService.findByName(name);
         // Then
         assertEquals("Dinner", newMeal.getName());
-
     }
 
 }
