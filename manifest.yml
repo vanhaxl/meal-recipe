@@ -1,0 +1,6 @@
+---
+applications:
+- name: meal-recipe-vanhanguyen
+  memory: 128MB
+  instances: 1
+  command: node ./target/mealRecipe-1.5.3.RELEASE.jar
