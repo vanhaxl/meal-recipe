@@ -18,10 +18,13 @@ public class MealController {
     private String instance = "instance 0";
     //add test
 
+
     @GetMapping("")
     public String message() {
         return "Hello from " + instance;
     }
+
+    //addd comment here
 
     @GetMapping(value = "/meal/{name}", produces={"application/json"})
     public Meal findByName(@PathVariable String name) throws NotFoundException {
