@@ -15,7 +15,7 @@ public class MealController {
     @Autowired
     MealService mealService;
 
-    //test git
+    //test git 2
     private String instance = "instance 0";
 
     @GetMapping("")
