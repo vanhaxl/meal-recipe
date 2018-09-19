@@ -10,8 +10,9 @@ public class AddMoreClass {
         return "plain text";
     }
 
-    public void printOutHelper(){
-        System.out.println("testing kdiff");
+    //aa
+    public void printOut(){
+        System.out.println("testing github");
     }
 }
 
