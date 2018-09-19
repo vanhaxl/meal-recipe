@@ -1,8 +1,12 @@
 package altrimetrik.playground.controller;
 
 public class AddMoreClass {
-    //kaka
-    public void meth(){
-        
+    //test once more time
+    //test more
+    //test more
+    public String crypto(String input){
+        return "encrypted String";
+
+
     }
 }
