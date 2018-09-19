@@ -10,8 +10,8 @@ public class AddMoreClass {
         return "plain text";
     }
 
-    //aa
-    public void printOut(){
+    //bbbc
+    public void printOutHelper(){
         System.out.println("testing github");
     }
 }
