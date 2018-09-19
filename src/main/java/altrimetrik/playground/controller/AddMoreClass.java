@@ -5,14 +5,11 @@ public class AddMoreClass {
     public void encrypt(){
         System.out.println("master change the text");
     }
-    //decrypt
+    //This is branch 2
     public String decrypt(String ciphertext){
         return "plain text";
     }
 
-    //bbbc
-    public void printOutHelper(){
-        System.out.println("testing github");
-    }
+
 }
 
