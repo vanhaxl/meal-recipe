@@ -5,7 +5,7 @@ public class AddMoreClass {
     public void encrypt(){
 
     }
-    //test
+    //decrypt
     public String decrypt(String ciphertext){
         return "plain text";
     }
