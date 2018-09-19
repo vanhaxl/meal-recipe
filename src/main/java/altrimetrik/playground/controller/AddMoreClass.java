@@ -9,5 +9,9 @@ public class AddMoreClass {
     public String decrypt(String ciphertext){
         return "plain text";
     }
+
+    public void printOut(){
+        System.out.println("testing");
+    }
 }
 
